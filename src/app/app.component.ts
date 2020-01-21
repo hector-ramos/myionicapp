@@ -22,6 +22,11 @@ export class AppComponent {
       icon: 'people'
     },
     {
+      title: 'Action Sheet',
+      url: '/action-sheet',
+      icon: 'magnet'
+    },
+    {
       title: 'List',
       url: '/list',
       icon: 'list'

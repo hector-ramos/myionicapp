@@ -27,6 +27,11 @@ export class AppComponent {
       icon: 'magnet'
     },
     {
+      title: 'Alert',
+      url: '/alert',
+      icon: 'alert'
+    },
+    {
       title: 'List',
       url: '/list',
       icon: 'list'

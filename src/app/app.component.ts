@@ -32,6 +32,11 @@ export class AppComponent {
       icon: 'alert'
     },
     {
+      title: 'Tabs',
+      url: '/tabs',
+      icon: 'options'
+    },
+    {
       title: 'List',
       url: '/list',
       icon: 'list'

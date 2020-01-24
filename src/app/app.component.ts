@@ -37,6 +37,11 @@ export class AppComponent {
       icon: 'options'
     },
     {
+      title: 'Modal',
+      url: '/modal',
+      icon: 'image'
+    },
+    {
       title: 'List',
       url: '/list',
       icon: 'list'
@@ -55,6 +60,11 @@ export class AppComponent {
     this.platform.ready().then(() => {
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+
+      if (cordova.platformId === 'android') {
+        this.statusBar.styleLightContent()
+        this.statusBar.backgroundColorByHexString('#4D27AE60');
+      }
     });
   }
 }
